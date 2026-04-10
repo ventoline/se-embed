@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+          "Stats": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/libs/stats.module.js"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="over-msg"><p></p></div>
+    <input
+      type="range"
+      min="0"
+      max="100"
+      value="0"
+      class="slider"
+      id="timeline"
+    />
+    <div id="timer">0</div>
+    <canvas id="canvas"></canvas>
+    <img id="logo" src="c3d-logo.png" width="20" />
+  </body>
+  <script type="module" src="./js/main.js"></script>
+</html>

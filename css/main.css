@@ -1,0 +1,48 @@
+canvas {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.over-msg {
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  color: grey;
+  user-select: none;
+  pointer-events: none;
+}
+
+#timeline {
+  margin: 5px;
+  width: calc(100% - 10px);
+  position: absolute;
+  background: black;
+  accent-color: #8305e3; //#403ab1;
+}
+
+#timer {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  color: white;
+  font-size: 9px;
+  pointer-events: null;
+  user-select: none;
+}
+
+#logo {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  z-index: 100;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: black;
+}
